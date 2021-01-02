@@ -61,4 +61,4 @@ class TestVarasto(unittest.TestCase):
         saatu_maara = self.varasto.ota_varastosta(9)
 
         self.assertAlmostEqual(saatu_maara, 8)
-        self.assertAlmostEqual(self.varasto.saldo, 0)
+        self.assertAlmostEqual(self.varasto.saldo, 1)
